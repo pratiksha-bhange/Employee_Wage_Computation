@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeWageComputation", "EmployeeWageComputation.csproj", "{3D9DDB74-A186-4FAB-87D0-F38050B9B4C2}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeWageComputation", "EmployeeWageComputation.csproj", "{4693F36D-87DA-483A-9BF2-601A31BDF0FB}"
+>>>>>>> UC12-EmpWageByArrayList
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{3D9DDB74-A186-4FAB-87D0-F38050B9B4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D9DDB74-A186-4FAB-87D0-F38050B9B4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D9DDB74-A186-4FAB-87D0-F38050B9B4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D9DDB74-A186-4FAB-87D0-F38050B9B4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{4693F36D-87DA-483A-9BF2-601A31BDF0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4693F36D-87DA-483A-9BF2-601A31BDF0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4693F36D-87DA-483A-9BF2-601A31BDF0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4693F36D-87DA-483A-9BF2-601A31BDF0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> UC12-EmpWageByArrayList
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {60F9B4BC-6867-4DA9-B91E-59679F636CEA}
+=======
+		SolutionGuid = {F44F1087-E8EC-46B2-940D-DF85338C5703}
+>>>>>>> UC12-EmpWageByArrayList
 	EndGlobalSection
 EndGlobal
