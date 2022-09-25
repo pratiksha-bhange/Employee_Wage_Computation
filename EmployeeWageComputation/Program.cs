@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 ﻿using System;
 
 namespace Employee_Wage
 { 
+=======
+﻿using EmployeeWageComputation;
+using System;
+
+namespace EmployeeWageComputation
+{
+>>>>>>> UC12-EmpWageByArrayList
     class Program
     {
         static void Main(string[] args)

@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <Folder Include="EmployeeWageComputation\" />
+  </ItemGroup>
+
+>>>>>>> UC12-EmpWageByArrayList
 </Project>
