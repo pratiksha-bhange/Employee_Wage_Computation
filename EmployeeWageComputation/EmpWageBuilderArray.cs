@@ -5,7 +5,11 @@ using System.Text;
 
 namespace EmployeeWageComputation
 {
+<<<<<<< HEAD
     class EmpWageBuilderArray
+=======
+    class EmpWageBuilderArray 
+>>>>>>> UC12-EmpWageArrayList
 
     {
         public const int IS_PART_TIME = 1;
