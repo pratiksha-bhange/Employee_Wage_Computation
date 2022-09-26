@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Employee_Wage
 {
-    class EmpWageBuilderArray : IComputeEmpWage
+    class EmpWageBuilderArray 
 
     {
 
