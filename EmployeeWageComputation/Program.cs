@@ -1,3 +1,4 @@
+using Employee_Wage;
 using System;
 
 namespace EmployeeWageComputation

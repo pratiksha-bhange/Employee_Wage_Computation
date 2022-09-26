@@ -3,29 +3,27 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EmployeeWageComputation
+namespace Employee_Wage
 {
-<<<<<<< HEAD
     class EmpWageBuilderArray
-=======
-    class EmpWageBuilderArray 
->>>>>>> UC12-EmpWageArrayList
 
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
-        private int numOfCompany = 0;
-        List<CompanyEmpWage> companyEmpWageList;
 
+        List<CompanyEmpWage> companyEmpWageList;
+        Dictionary<string, CompanyEmpWage> companyToEmpWageMap;
         public EmpWageBuilderArray()
         {
             this.companyEmpWageList = new List<CompanyEmpWage>();
+            this.companyToEmpWageMap = new Dictionary<string, CompanyEmpWage>();
         }
 
         public void addCompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
         {
             CompanyEmpWage companyEmpWage = new CompanyEmpWage(company, empRatePerHour, numOfWorkingDays, maxHoursPerMonth);
             this.companyEmpWageList.Add(companyEmpWage);
+            this.companyToEmpWageMap.Add(company, companyEmpWage);
         }
 
         public void computeEmpWage()
@@ -66,3 +64,4 @@ namespace EmployeeWageComputation
         }
     }
 }
+
